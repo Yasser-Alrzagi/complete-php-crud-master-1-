@@ -1,0 +1,107 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    background-color: #f7f8fa;
+    color: #333;
+}
+
+/* ===== Header-like Links Bar ===== */
+body > a {
+    margin: 15px 8px 0 0;
+}
+
+body {
+    padding: 20px;
+}
+
+/* ===== Top Navigation ===== */
+body > a,
+body > a:visited {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #2f5d8a;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+body > a:hover {
+    background-color: #2f5d8a;
+    color: #ffffff;
+}
+
+/* ===== Admin Link ===== */
+a[href*="admin_users.php"] {
+    background-color: #eef2ff;
+    border-color: #c7d2fe;
+}
+
+/* ===== Logout ===== */
+a[href*="logout.php"] {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+a[href*="logout.php"]:hover {
+    background-color: #c0392b;
+    color: #ffffff;
+}
+
+/* ===== Table ===== */
+table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+}
+
+/* ===== Table Head ===== */
+table tr:first-child {
+    background-color: #f1f3f6;
+    font-weight: bold;
+    color: #2f5d8a;
+}
+
+/* ===== Cells ===== */
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+/* ===== Action Links inside table ===== */
+table a {
+    padding: 6px 10px;
+    border: 1px solid #2f5d8a;
+    border-radius: 4px;
+    margin: 0 4px;
+    font-size: 13px;
+}
+
+table a:hover {
+    background-color: #2f5d8a;
+    color: #ffffff;
+}
+
+/* ===== Delete Button ===== */
+table a[href*="delete.php"] {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+table a[href*="delete.php"]:hover {
+    background-color: #c0392b;
+    color: #ffffff;
+}
